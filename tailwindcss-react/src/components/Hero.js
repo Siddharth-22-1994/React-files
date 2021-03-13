@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <div className="bg-white h-screen flex flex-col justify-center items-center">
+    <div className="bg-yellow-200	h-screen flex flex-col justify-center items-center">
       <h1 className="lg:text-7xl md:text-5xl sm:text-3xl text-2xl font-black mb-14">
-        EGG SHELS
+        INDIAN CUISINE
       </h1>
       <Link
-        className="py-4 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-300  ease-in-out felx items-center animate-bounce"
+        className="py-4 px-10 bg-yellow-500 rounded-full text-3xl hover:bg-yellow-300 transition duration-300  ease-in-out felx items-center animate-bounce shadow-2xl"
         to="/"
       >
         Order Now
